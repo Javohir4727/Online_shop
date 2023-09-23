@@ -103,19 +103,19 @@ header {
   padding-top: 4px;
 }
 
-.popular_categories, .leaders_sells, .discount_part {
+.popular_categories, .our_works_galelry, .leaders_sells, .discount_part {
   margin: 40px;
 }
-.popular_categories span, .leaders_sells span, .discount_part span {
+.popular_categories span, .our_works_galelry span, .leaders_sells span, .discount_part span {
   font-weight: 600;
   font-size: 28px;
 }
-.popular_categories a, .leaders_sells a, .discount_part a {
+.popular_categories a, .our_works_galelry a, .leaders_sells a, .discount_part a {
   text-decoration: none;
   margin-left: 10px;
   color: black;
 }
-.popular_categories a i, .leaders_sells a i, .discount_part a i {
+.popular_categories a i, .our_works_galelry a i, .leaders_sells a i, .discount_part a i {
   font-size: 13px;
 }
 
@@ -221,6 +221,68 @@ header {
 .wrap_discount h2 {
   padding: 30px;
   text-align: center;
+}
+
+.wrap_galeleries {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-between;
+  margin: 20px 0 0;
+}
+.wrap_galeleries .wrap_galelery img {
+  width: 350px;
+}
+
+.our_info {
+  display: flex;
+  justify-content: space-between;
+  height: 30vh;
+  align-items: center;
+}
+.our_info .contact {
+  margin: 0 0 0 40px;
+}
+.our_info .contact p {
+  font-weight: 600;
+  font-size: 28px;
+  padding: 10px;
+}
+.our_info .contact p:nth-child(2) {
+  font-size: 38px;
+}
+.our_info .contact a {
+  position: relative;
+  top: 30px;
+  left: 5%;
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+}
+.our_info .contact a i {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  font-size: 30px;
+}
+.our_info .adress p {
+  padding: 5px 450px 5px 0;
+}
+.our_info .adress p:first-child {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.our_info .adress p:nth-child(2) {
+  font-size: 28px;
+  font-weight: 600;
+}
+.our_info .adress p:nth-child(3) {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.our_info .adress p:nth-child(5) {
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=main.css.map */
