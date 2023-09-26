@@ -64,7 +64,7 @@ header {
   align-items: center;
   width: 100%;
   height: 80vh;
-  background-color: #A1E2EB;
+  background-color: #a1e2eb;
 }
 
 .sale_info {
@@ -126,15 +126,26 @@ header {
 }
 .wrap_categories .wrap_category {
   width: 300px;
-  border: 1px solid grey;
   margin: 30px;
+  box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.4);
+  border-radius: 10px;
+  text-align: center;
+  padding: 0 20px;
 }
 .wrap_categories .wrap_category img {
-  width: 100%;
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
 }
 .wrap_categories .wrap_category h2 {
-  padding: 30px;
+  padding: 0px;
   text-align: center;
+}
+.wrap_categories .wrap_category span {
+  font-size: 20px;
+}
+.wrap_categories .wrap_category span:nth-child(2) {
+  color: grey;
 }
 
 .wrap_sells {
@@ -143,16 +154,38 @@ header {
   justify-content: space-evenly;
 }
 .wrap_sells .wrap_sell {
-  width: 300px;
-  border: 1px solid grey;
+  width: 250px;
   margin: 30px;
+  box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.4);
+  border-radius: 10px;
+  text-align: center;
+  padding: 0 20px;
+}
+.wrap_sells .wrap_sell .skidka {
+  color: grey;
+  text-decoration: line-through;
+  font-size: 16px;
+  font-weight: 400;
+}
+.wrap_sells .wrap_sell .skidka2 {
+  color: pink;
+  font-size: 16px;
+  font-weight: 400;
 }
 .wrap_sells .wrap_sell img {
-  width: 100%;
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
 }
-.wrap_sells .wrap_sell h2 {
-  padding: 30px;
+.wrap_sells .wrap_sell p {
+  padding: 10 15px;
   text-align: center;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+}
+.wrap_sells .wrap_sell p:nth-child(2) {
+  font-weight: 900;
 }
 
 .sale_2 {
@@ -211,16 +244,38 @@ header {
 }
 
 .wrap_discount {
-  width: 300px;
-  border: 1px solid grey;
+  width: 250px;
   margin: 30px;
+  box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.4);
+  border-radius: 10px;
+  text-align: center;
+  padding: 0 20px;
+}
+.wrap_discount .skidka {
+  color: grey;
+  text-decoration: line-through;
+  font-size: 16px;
+  font-weight: 400;
+}
+.wrap_discount .skidka2 {
+  color: pink;
+  font-size: 16px;
+  font-weight: 400;
 }
 .wrap_discount img {
-  width: 100%;
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
 }
-.wrap_discount h2 {
-  padding: 30px;
+.wrap_discount p {
+  padding: 10 15px;
   text-align: center;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+}
+.wrap_discount p:nth-child(2) {
+  font-weight: 900;
 }
 
 .wrap_galeleries {
@@ -283,6 +338,23 @@ header {
 }
 .our_info .adress p:nth-child(5) {
   font-weight: 600;
+}
+
+.loading {
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+}
+
+.loaded {
+  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */
