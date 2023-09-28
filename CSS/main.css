@@ -127,7 +127,6 @@ header {
 .wrap_categories .wrap_category {
   width: 300px;
   margin: 30px;
-  box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.4);
   border-radius: 10px;
   text-align: center;
   padding: 0 20px;
@@ -140,9 +139,11 @@ header {
 .wrap_categories .wrap_category h2 {
   padding: 0px;
   text-align: center;
+  margin: 10px 0;
 }
 .wrap_categories .wrap_category span {
   font-size: 20px;
+  margin: 10px 0;
 }
 .wrap_categories .wrap_category span:nth-child(2) {
   color: grey;
@@ -156,7 +157,6 @@ header {
 .wrap_sells .wrap_sell {
   width: 250px;
   margin: 30px;
-  box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.4);
   border-radius: 10px;
   text-align: center;
   padding: 0 20px;
@@ -181,11 +181,12 @@ header {
   padding: 10 15px;
   text-align: center;
   font-weight: 500;
-  display: flex;
-  justify-content: space-between;
 }
 .wrap_sells .wrap_sell p:nth-child(2) {
   font-weight: 900;
+}
+.wrap_sells .wrap_sell p span {
+  padding: 0 10px;
 }
 
 .sale_2 {
@@ -225,15 +226,16 @@ header {
   border: none;
   outline: none;
   border-radius: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
-.sale_2_info button {
+.sale_2_info .getButton {
   width: 300px;
-  padding: 10px 40px;
+  padding: 10px 98px;
   border-radius: 10px;
   background-color: transparent;
+  margin: 10px 0;
+  color: white;
   border: 1px solid #fff;
-  color: #fff;
   cursor: pointer;
 }
 
@@ -246,7 +248,6 @@ header {
 .wrap_discount {
   width: 250px;
   margin: 30px;
-  box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.4);
   border-radius: 10px;
   text-align: center;
   padding: 0 20px;
@@ -271,11 +272,12 @@ header {
   padding: 10 15px;
   text-align: center;
   font-weight: 500;
-  display: flex;
-  justify-content: space-between;
 }
 .wrap_discount p:nth-child(2) {
   font-weight: 900;
+}
+.wrap_discount p span {
+  padding: 0 10px;
 }
 
 .wrap_galeleries {

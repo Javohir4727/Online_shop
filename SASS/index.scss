@@ -137,7 +137,6 @@ header {
   .wrap_category {
     width: 300px;
     margin: 30px;
-    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.4);
     border-radius: 10px;
     text-align: center;
     padding: 0 20px;
@@ -149,9 +148,11 @@ header {
     h2 {
       padding: 0px;
       text-align: center;
+      margin: 10px 0;
     }
     span {
       font-size: 20px;
+      margin: 10px 0;
 
       &:nth-child(2) {
         color: grey;
@@ -161,6 +162,7 @@ header {
 }
 .leaders_sells {
   @extend .popular_categories;
+
 }
 .wrap_sells {
   display: grid;
@@ -170,7 +172,6 @@ header {
   .wrap_sell {
     width: 250px;
     margin: 30px;
-    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.4);
     border-radius: 10px;
     text-align: center;
     padding: 0 20px;
@@ -195,11 +196,12 @@ header {
       padding: 10 15px;
       text-align: center;
       font-weight: 500;
-      display: flex;
-      justify-content: space-between;
 
       &:nth-child(2){
         font-weight: 900;
+      }
+      span {
+        padding: 0 10px;
       }
     }
   }
@@ -241,15 +243,16 @@ header {
     border: none;
     outline: none;
     border-radius: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
   }
-  button {
+  .getButton{
     width: 300px;
-    padding: 10px 40px;
+    padding: 10px 98px;
     border-radius: 10px;
     background-color: transparent;
+    margin: 10px 0;
+    color:white;
     border: 1px solid #fff;
-    color: #fff;
     cursor: pointer;
   }
 }
@@ -264,7 +267,6 @@ header {
 .wrap_discount {
   width: 250px;
   margin: 30px;
-  box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.4);
   border-radius: 10px;
   text-align: center;
   padding: 0 20px;
@@ -289,11 +291,13 @@ font-weight: 400;
     padding: 10 15px;
     text-align: center;
     font-weight: 500;
-    display: flex;
-    justify-content: space-between;
+    
 
     &:nth-child(2){
       font-weight: 900;
+    }
+    span{
+      padding: 0 10px
     }
   }
 }
