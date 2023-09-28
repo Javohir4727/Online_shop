@@ -241,15 +241,16 @@ header {
     border: none;
     outline: none;
     border-radius: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
   }
-  button {
+  .getButton{
     width: 300px;
-    padding: 10px 40px;
+    padding: 10px 98px;
     border-radius: 10px;
     background-color: transparent;
+    margin: 10px 0;
+    color:white;
     border: 1px solid #fff;
-    color: #fff;
     cursor: pointer;
   }
 }
