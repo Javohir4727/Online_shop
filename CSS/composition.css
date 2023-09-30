@@ -58,4 +58,110 @@ header {
   width: 20px;
 }
 
+.category_search {
+  margin: 20px 0 20px 30px;
+}
+.category_search h2 {
+  margin-bottom: 10px;
+}
+.category_search select {
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgba(128, 128, 128, 0.11);
+  border: none;
+}
+
+.compasition_categories {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+}
+
+.compasition_category {
+  width: 350px;
+  margin: 30px 10px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 0 20px;
+}
+.compasition_category .skidka {
+  color: grey;
+  text-decoration: line-through;
+  font-size: 16px;
+  font-weight: 400;
+}
+.compasition_category .skidka2 {
+  color: pink;
+  font-size: 16px;
+  font-weight: 400;
+}
+.compasition_category img {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+}
+.compasition_category p {
+  padding: 10 15px;
+  text-align: center;
+  font-weight: 500;
+}
+.compasition_category p:nth-child(2) {
+  font-weight: 900;
+}
+.compasition_category p span {
+  padding: 0 10px;
+}
+
+.our_info {
+  display: flex;
+  justify-content: space-between;
+  height: 30vh;
+  align-items: center;
+}
+.our_info .contact {
+  margin: 0 0 0 40px;
+}
+.our_info .contact p {
+  font-weight: 600;
+  font-size: 28px;
+  padding: 10px;
+}
+.our_info .contact p:nth-child(2) {
+  font-size: 38px;
+}
+.our_info .contact a {
+  position: relative;
+  top: 30px;
+  left: 5%;
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+}
+.our_info .contact a i {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  font-size: 30px;
+}
+.our_info .adress p {
+  padding: 5px 450px 5px 0;
+}
+.our_info .adress p:first-child {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.our_info .adress p:nth-child(2) {
+  font-size: 28px;
+  font-weight: 600;
+}
+.our_info .adress p:nth-child(3) {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.our_info .adress p:nth-child(5) {
+  font-weight: 600;
+}
+
 /*# sourceMappingURL=composition.css.map */
