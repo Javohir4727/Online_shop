@@ -46,7 +46,7 @@ function sellsProducts(arr2) {
       return `
     <div class="wrap_sell">
     <img src="${image}" alt="${title}" />
-    <p>${price} <span class="skidka">${(price + 20).toFixed(
+    <p>${price}$ <span class="skidka">${(price + 20).toFixed(
         2
       )}</span><span class="skidka2">-20$</span></p>
     <p>${title}</p>
@@ -69,7 +69,7 @@ function discountProducts(arr3) {
       return `
     <div class="wrap_discount">
    <img src="${image}" alt="${title}" />
-    <p>${price} <span class="skidka">${(price + 20).toFixed(
+    <p>${price}$<span class="skidka">${(price + 20).toFixed(
         2
       )}</span><span class="skidka2">-20$</span></p>
     <p>${title}</p>

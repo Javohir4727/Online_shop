@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
     <link rel="stylesheet" href="./CSS/composition.css" />
     <title>Discout</title>
   </head>
@@ -40,7 +47,7 @@
     <main>
       <div class="category_search">
         <h2>Ready-made compositions</h2>
-        <select name="" id="select">
+        <select name="" id="select" onchange="changeCategories(this)">
           <option value="electronics">Electronics</option>
           <option value="jewelery">Jewelery</option>
           <option value="men's clothing">Men's clothing</option>
@@ -48,13 +55,26 @@
         </select>
       </div>
       <div class="compasition_categories" id="compasition_categories">
-        <!-- <div class="compasition_category">
-            <img src="./media/Rectangle 2050.png" alt="">
-            <p><span>12</span> <span>21</span> <span>12</span></p>
-            <p></p>
-        </div> -->
       </div>
     </main>
+    <div>
+      <div class="our_info">
+      <div class="contact">
+        <p>Contact</p>
+        <p>+998 91 596 47 27</p>
+        <a href="#"><i class="fa-brands fa-instagram"></i>instagram</a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+      </div>
+      <div class="adress">
+        <p>Address</p>
+         <p>Jizzakh</p>
+         <p>Mustaqillik streat 11</p>
+         <p>Operating mode</p>
+         <p>Around the clock</p>
+      </div>
+    </div>
+  </div>
+    </footer>
 
     <script src="./JS/composition.js"></script>
   </body>
