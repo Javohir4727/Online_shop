@@ -1,6 +1,7 @@
 const productsURL = "https://fakestoreapi.com/products";
 const productCategory = "https://fakestoreapi.com/products/category/";
 const res = document.getElementById("compasition_categories");
+const loading = document.getElementById("loading");
 
 function changeCategories(elem) {
     getProducts(productCategory + elem.value)
@@ -17,6 +18,8 @@ function getComposition() {
 }
 
 function showProducts(arr) {
+    loading.classList.remove("loading");
+    loading.classList.add("loaded")
   res.innerHTML = "";
   res.innerHTML = arr
     .map((item) => {
