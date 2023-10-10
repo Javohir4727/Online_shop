@@ -55,6 +55,10 @@ header {
     a {
       text-decoration: none;
       color: black;
+
+    }
+    &:nth-child(2){
+      border-bottom: 2px solid grey;
     }
 
     img {
@@ -83,15 +87,17 @@ header {
   display: grid;
   grid-template-columns: auto auto auto auto;
   justify-content: space-evenly;
-  height: 80vh;
 }
 .compasition_category {
   width: 350px;
   margin: 30px 10px;
   border-radius: 10px;
   text-align: center;
+  align-items:center;
   padding: 0 20px;
-
+  position: relative;
+  
+  
 .skidka{
 color: grey;
 text-decoration: line-through;
@@ -107,6 +113,12 @@ font-weight: 400;
     width: 250px;
     height: 250px;
     object-fit: contain;
+
+    &:hover ~ .Add_button{
+      display: block;
+    }
+
+    
   }
   p {
     padding: 10 15px;
@@ -120,6 +132,28 @@ font-weight: 400;
     span{
       padding: 0 10px
     }
+  }
+  .Add_button{
+    display: none;
+    width: 150px;
+    border: 2px solid #C949CA;
+    border-radius:15px;
+    color:#C949CA;
+    cursor: pointer;
+    padding: 10px 20px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transition: 200ms;
+    letter-spacing: 2px;
+    font-weight: 600;
+    
+
+    &:hover {
+      display: block;
+
+    }
+
   }
 }
 
@@ -202,3 +236,4 @@ font-weight: 400;
 .loaded {
   display: none;
 }
+

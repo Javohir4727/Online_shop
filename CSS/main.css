@@ -54,6 +54,9 @@ header {
   text-decoration: none;
   color: black;
 }
+.header_categoty li:nth-child(1) {
+  border-bottom: 2px solid grey;
+}
 .header_categoty li img {
   width: 20px;
 }
