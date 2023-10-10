@@ -32,6 +32,7 @@ function showProducts(arr) {
       ).toFixed(2)}$</span> <span class="skidka2">-20$</span></p>
             <p>${title}</p>
             <p>${category}</p>
+            <button class="Add_button">Add to cart</button>
         </div>
         `;
     })

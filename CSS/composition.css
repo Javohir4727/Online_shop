@@ -54,6 +54,9 @@ header {
   text-decoration: none;
   color: black;
 }
+.header_categoty li:nth-child(2) {
+  border-bottom: 2px solid grey;
+}
 .header_categoty li img {
   width: 20px;
 }
@@ -75,7 +78,6 @@ header {
   display: grid;
   grid-template-columns: auto auto auto auto;
   justify-content: space-evenly;
-  height: 80vh;
 }
 
 .compasition_category {
@@ -83,7 +85,9 @@ header {
   margin: 30px 10px;
   border-radius: 10px;
   text-align: center;
+  align-items: center;
   padding: 0 20px;
+  position: relative;
 }
 .compasition_category .skidka {
   color: grey;
@@ -101,6 +105,9 @@ header {
   height: 250px;
   object-fit: contain;
 }
+.compasition_category img:hover ~ .Add_button {
+  display: block;
+}
 .compasition_category p {
   padding: 10 15px;
   text-align: center;
@@ -111,6 +118,24 @@ header {
 }
 .compasition_category p span {
   padding: 0 10px;
+}
+.compasition_category .Add_button {
+  display: none;
+  width: 150px;
+  border: 2px solid #C949CA;
+  border-radius: 15px;
+  color: #C949CA;
+  cursor: pointer;
+  padding: 10px 20px;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transition: 200ms;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.compasition_category .Add_button:hover {
+  display: block;
 }
 
 .our_info {
